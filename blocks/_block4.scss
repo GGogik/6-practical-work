@@ -1,0 +1,66 @@
+.block4{
+width: auto;
+height: auto;
+margin-top: 100px;
+align-items: center;
+overflow-x: hidden;
+
+}
+.block4__background{
+
+
+background-position: center center;
+background-size: cover;
+height: 600px;
+margin-top: -16px;
+width: 100%;
+margin-left: -40px;
+margin: 0;
+background:
+linear-gradient(0.8turn,rgba(255, 255, 1, 0), rgba(0, 0, 1, 0.947)),
+url(/materials/Rectangle.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.block4__background-separation{
+display: flex;
+margin-left: 130PX;
+}
+.block4__background-separation-img{
+width: 10%;
+height: 10%;
+margin-top: 30px
+}
+.block4__background-separation-p{
+font-family: Raleway;
+color: white;
+font-size: 40px;
+font-weight: 500;
+margin-left: 20px;
+}
+.block4__background-p{
+    font-family: Raleway;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 140px;
+    line-height: 33px;
+}
+.block4__background-button{
+background-color: rgb(206, 192, 0);
+color: blacks;
+border: none;
+text-decoration: none;
+font-size: 20px;
+font-family: Raleway;
+padding: 18px 45px;
+margin-left: 140px;
+margin-top: 30px;
+}
+.block4__background-button:hover{
+background-color: rgb(242, 226, 0);
+}
+.block4__background-button:active{
+background-color: rgb(255, 255, 132)
+}

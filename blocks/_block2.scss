@@ -1,0 +1,55 @@
+// бокс с выбором страны
+.chooseCountry{
+display: flex;
+margin-top: 40px;
+}
+// текст внутри кнопки
+.block2__text{
+font-family: Raleway;
+font-size: 40px;
+font-weight: 900px; 
+margin-left: 140px;
+
+}
+// вид кнопки
+.block2__buttonGer{
+color: #fff; /* цвет текста */
+text-decoration: none; /* убирать подчёркивание у ссылок */
+font-family: Raleway;
+font-size: 20px;
+border-radius: 20px;
+height: 40px;
+border: none;
+background: rgb(208, 232, 207); /* фон кнопки */
+padding: .4em 1.5em; /* отступ от текста */
+margin-top:47.5px ;
+margin-left: 70px;
+} 
+.block2__buttonFr{
+color: #fff; /* цвет текста */
+text-decoration: none; /* убирать подчёркивание у ссылок */
+font-family: Raleway;
+font-size: 20px;
+border-radius: 20px;
+height: 40px;
+border: none;
+background: rgb(208, 232, 207); /* фон кнопки */
+padding: .4em 1.5em; /* отступ от текста */
+margin-top:47.5px ;
+margin-left: 220px;
+} 
+.block2__buttonBr{
+color: #fff; /* цвет текста */
+text-decoration: none; /* убирать подчёркивание у ссылок */
+font-family: Raleway;
+font-size: 20px;
+border-radius: 20px;
+height: 40px;
+border: none;
+background: rgb(208, 232, 207); /* фон кнопки */
+padding: .4em 1.5em; /* отступ от текста */
+margin-top:47.5px ;
+margin-left: 70px;
+} 
+.block2__button:hover { background: rgb(126, 196, 127); } /* при наведении курсора мышки */
+.block2__button:active{ background: rgb(45, 96, 0); } /* при нажатии */

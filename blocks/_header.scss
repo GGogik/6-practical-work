@@ -1,0 +1,61 @@
+// меню с кнопками
+.header{
+display: flex;
+}
+.header_v2{
+margin-top: -8px;
+margin-left: -10PX;
+border: rgb(208, 232, 207) solid 1px;
+background-color: rgb(208, 232, 207);
+width: auto;
+height: 100px;
+
+}
+.header__separation{
+    display: flex;
+    margin-top: 34px;
+}
+
+.header__separation-img{
+margin-left: 200px;
+width: 30px;
+height: 30px;
+margin-top: -3px;
+}
+
+.header__separation-li{
+list-style-type: none;
+margin-left: 20px;
+margin-top: 0px;
+}
+
+.header__separation-li-txt{
+text-decoration: none;
+font-size: 20px;
+font-family: Raleway;
+color: green;
+font-weight: 700;
+}
+
+.header__separation2{
+display: flex;
+margin-left: 350px;
+margin-top: 34px;
+}
+.header__separation2-li{
+list-style-type: none;
+}
+.header__separation2-li-txt{
+font-size: 20px;
+margin-left: 50px;
+text-decoration: none;
+color: black;
+font-family: Raleway;
+
+}
+.header__separation2-img{
+width: 30px;
+height: 30px;
+margin-left: 50px;
+margin-top: -4px;
+}
